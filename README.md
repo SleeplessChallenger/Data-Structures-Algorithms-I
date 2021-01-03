@@ -3,4 +3,11 @@ Here I'll post code for various DSA problems that were covered by me
 
 Actually, there are various topics which were covered and they'll be uploaded in sequence. Starting from Big O notation and ending with Dynamic Programming. 
 
-!!!To check for some notes go to the file, i.e. Big O.py, and there in the thread of the code you can stumble upon insriptions that I've found aiding. 
+1)To check for some notes go to the file, i.e. Big O.py, and there in the thread of the code you can stumble upon insriptions that I've found aiding. 
+
+2)In patterns there is a bunch of problems that can be useful. Like multiple pointers, sliding windows etc
+
+3)Sorting Algorithms include: linear search, naive string search, binary search, bubble sort, selection sort, insertion sort, merge sort, quick sort, radix sort
+* in regard to quick sort: the first one is for JS (with helper) and the subsequent one is for Python
+
+!!!All in all I tried to test the code before uploading it here, but if there are some flops, be sure to create Pull Request
