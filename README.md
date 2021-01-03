@@ -1,7 +1,7 @@
 # Data-Structures-Algorithms-I
 Here I'll post code for various DSA problems that were covered by me 
 
-Actually, there are various topics which were covered. Starting from Big O notation and ending with Dynamic Programming. 
+Actually, there are various topics starting from Big O notation and ending with Dynamic Programming. 
 
 1)To check for some notes go to the file, i.e. Big O.py, and there in the thread of the code you can stumble upon insriptions that I've found aiding. 
 
