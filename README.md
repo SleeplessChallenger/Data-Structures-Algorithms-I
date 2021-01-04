@@ -12,4 +12,6 @@ Actually, there are various topics starting from Big O notation and ending with 
 
 4)"Problemsolver" is a type of file where I delineated best mental attitude which you should use when approaching to dabble with problem. 
 
+5)Dynamic programming is pretty dense in regard to notes, be free to read
+
 !!!All in all I tried to test the code before uploading it here, but if there are some flops, be sure to create Pull Request
