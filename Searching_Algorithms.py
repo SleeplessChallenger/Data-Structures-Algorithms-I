@@ -15,31 +15,20 @@ print(search([2,5,1,6,9,10],5))
 
 #Binary search
 from math import floor
-def bin_search(arr,phr):
-	min_ = 0
-	max_ = len(arr) - 1
-	while min_ < max_:
-		aver = floor((min_+max_)/2)
-		if phr > arr[aver]:
-			min_ = aver + 1
-		elif phr < arr[aver]:
-			max_ = aver - 1
+def bin_search(arr, target):
+	left = 0
+	right = len(arr) - 1
+	middle = floor((left + right)/2) #or (left + right) // 2
+	while left <= right and arr[middle] != target:
+		if target > arr[middle]:
+			left = middle + 1
 		else:
-			return phr
+			right = middle - 1
+		middle = floor((left + right)/2)
+	if arr[middle] == target:
+		return middle
 	return -1
-
-	#slightly different, but doesn't work on my machine
-	min_ = 0
-	max_ = len(arr) - 1
-	aver = floor((min_ + max_)/2)
-	while arr[aver] != phr & min_ <= max_:
-		if arr[aver] > phr:
-			max_ = aver - 1
-		else:
-			min_ = aver + 1
-	if arr[aver] == phr:
-		return aver
-	return -1
+	
 
 
 #String search
