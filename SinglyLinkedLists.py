@@ -170,7 +170,7 @@ class SinglyLinkedList:
 						#	=> node.next in the upcoming iteratiion will give
 						#NOT THE PREVIOUS, but following 
 			i += 1
-		reutn self
+		return self
 
 
 
