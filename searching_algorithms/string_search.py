@@ -1,19 +1,22 @@
 # String search
 # Naive one
-def str_search(str1, str2):
-    i = 0
-    j = 0
-    count = 0
-    while i < len(str1):
-        while j < len(str2):
-            if str2[j] != str1[i + j]:
-                i += 1
-                j = 0
+def search(pat, txt):
+    substring_length = len(pat)
+    string_length = len(txt)
+
+    for i in range(string_length - substring_length + 1):
+        j = 0
+
+        # For current index i, check
+        # for pattern match */
+        while j < substring_length:
+            if txt[i + j] != pat[j]:
                 break
             j += 1
-            if j == len(str2) - 1:
-                count += 1
-    return count
+
+        if j == substring_length:
+            print("Pattern found at index ", i)
 
 
-print(str_search('wowomgzomg', 'omg'))
+if __name__ == "__main__":
+    search('omg', 'wowomgzomg')
