@@ -1,6 +1,6 @@
 ## Data-Structures-Algorithms-I
 
-My first repo with DSA. Updated in March 2023 as it will be used for my course for master students
+My first repo with DSA. Updated in March 2023 as it will be used for my course for masters students
 
 * Actually, there are various topics starting from Big O notation and ending with Dynamic Programming.
 
