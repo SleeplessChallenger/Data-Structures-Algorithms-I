@@ -153,10 +153,11 @@ class SinglyLinkedList:
         elif index == 0:
             return self.shift()
         else:
-            node_before_index = self.get_node_by_index(index - 1)
+            # 5
+            node_before_index = self.get_node_by_index(index - 1) # 4
             # unlink node_before_index that is at index
-            temp = node_before_index.next
-            node_before_index.next = temp.next
+            temp = node_before_index.next # 5
+            node_before_index.next = temp.next # 6
             self.length -= 1
             return temp
 

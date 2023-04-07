@@ -31,7 +31,7 @@ class BinarySearchTree(object):
             node = Node(value)
         elif self.top.root > value:
             node.left = self.recursive(node.left, value)
-        elif self.top.root < value:
+        elif self.top.root <= value:
             node.right = self.recursive(node.right, value)
 
         return node

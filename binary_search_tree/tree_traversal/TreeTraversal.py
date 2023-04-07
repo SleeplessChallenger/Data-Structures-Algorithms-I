@@ -83,7 +83,6 @@ class Tree:
                 traverse(node.right)
 
         traverse(root)
-        print(result)
         return result
 
 
@@ -94,4 +93,5 @@ if __name__ == "__main__":
     tree.insert(10)
     tree.insert(1)
     tree.insert(5)
-    tree.dfs_inorder()
+    # tree.dfs_inorder()
+    tree.dfs_postorder()
